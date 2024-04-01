@@ -3,7 +3,7 @@ RUN apk add -U --no-cache \
       binutils \
       upx  && \
     wget -O /tmp/yq \
-      https://github.com/mikefarah/yq/releases/download/v4.35.1/yq_linux_amd64  && \
+      https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64  && \
     chmod a+x /tmp/yq  && \
     strip /tmp/yq && \
     upx /tmp/yq
